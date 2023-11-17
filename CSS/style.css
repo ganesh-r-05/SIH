@@ -1,0 +1,97 @@
+/* Navbar Overriding */
+.btn-outline-light{
+    background-color: white;
+    color: black;
+}
+
+.btn-outline-light:hover{
+    background-color: grey;
+    color: white;
+}
+
+.mainlogo{
+    filter: invert(100%);
+}
+
+/* Corousal Section*/
+#carouselsection{
+    margin: 15px;
+
+}
+
+/* Card Section */
+.cardsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    text-align: center;
+}
+
+.cardsection .card{
+    margin: 15px;
+}
+
+.cardsection .btn-primary{
+    background-color: rgb(52, 95, 253);
+}
+
+.cardsection .btn-primary:hover{
+    background-color: rgb(0, 55, 255);
+}
+
+/* Footer Styling */
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer .iconsuperclass
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer .iconsuperclass .icons img{
+    width: 40px;
+    margin: 20px;
+}
+
+footer .iconsuperclass .icons img:hover{
+    width: 50px;
+    margin: 10px 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer .aboutuscontactus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .aboutuscontactus a{
+    margin: 0.8rem 2rem;
+    padding: 2px 15px;
+    font-size: 20px;
+}
+
+footer .aboutuscontactus a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
